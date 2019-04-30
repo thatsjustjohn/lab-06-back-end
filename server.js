@@ -15,7 +15,7 @@ const LocationResponse = function(request, formatted_query, lat, long){
   this.search_query = request.query.data;
   this.formatted_query = formatted_query;
   this.latitude = lat;
-  this.longitutde = long;
+  this.longitude = long;
 };
 
 // Constructor for a DaysWeather.
